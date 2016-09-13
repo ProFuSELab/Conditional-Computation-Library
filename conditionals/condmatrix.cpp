@@ -236,6 +236,14 @@ void CondMatrix::genIncreasingMassValues(void)
 }
 
 //**************************************************************************************************
+// Get normalizing const 
+//**************************************************************************************************
+double CondMatrix::getNConst(void)
+{
+	return normalizing_const;
+}
+
+//**************************************************************************************************
 // Access a focal element 
 //**************************************************************************************************
 double CondMatrix::accessFocalElement(int row, int col)
@@ -309,7 +317,7 @@ double CondMatrix::calBeliefB(void)
 		}
 	}
 	
-	subsets = pow(2, conditioned_ele_vec.size());
+	subsets = pow(2, no_sin_conditioned);
 
 	if (debug)
 	{
@@ -333,12 +341,34 @@ double CondMatrix::calBeliefComp(void)
 {
 	double belief = 0.0;
 
-	int count = 0, temp = 0, subsets = 0;
 	for (int i = 0; i < pow(2, no_sin_complement); i++)
 	{
 		belief += focal_element[i][0];
 	}
 	return belief;			// returns belief
+}
+
+//**************************************************************************************************
+// Calculating straddling component 
+//**************************************************************************************************
+double CondMatrix::calStrad(void)
+{
+	double strad = 0.0;
+	int subsets_row = 0, subsets_col = 0, REGAP_col = 0;
+
+	subsets_col = pow(2, no_sin_conditioned);
+	subsets_row = pow(2, no_sin_complement);
+
+	for (int i = 0; i < subsets_col - 1; i++)
+	{
+		REGAP_col = REGAP_index[i];
+		for (int j = 1; j < subsets_row; j++)
+		{
+			strad += focal_element[j][REGAP_col];
+		}
+	}
+
+	return strad;			// returns strad 
 }
 
 //**************************************************************************************************

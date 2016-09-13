@@ -5,23 +5,24 @@ using namespace std;
 int main()
 {
         pair<int, int> index;
-        double experiment_time = 0.0, total_time = 0.0, blB = 0.0, compA = 0.0, strad = 0.0;
+        double experiment_time = 0.0, total_time = 0.0, blB = 0.0, compA = 0.0, strad = 0.0, condBelief;
 	vector <int> b_param;
 	int rem_ele;
         CondMatrix cond_matrix;
         cond_matrix.debugOff();
 
 	// for (int fod = 5; fod <= 20; fod += 5)
-	for (int fod = 5; fod <= 15; fod += 5)
+	for (int fod = 5; fod <= 5; fod += 5)
 	{       
 		cout << "FOD size : " << fod << endl;
-		for (int a = 1; a <= fod; a++)
+		for (int a = 3; a <= 3; a++)
 		// for (int a = 1; a <= fod; a++)
 		{
 			cout << endl << "A size : " << a << endl;
 			cond_matrix.clearMatrix();
 			cond_matrix.newMatrix(fod - a, a);
 			cond_matrix.genIncreasingMassValues();
+			cond_matrix.printFocalElements();
 			for (int arounds = 0; arounds < 1; arounds++)
 			{       
 				for (int b = 1; b < a; b++)
@@ -42,7 +43,9 @@ int main()
 						
 						blB = cond_matrix.calBeliefB();
 						compA = cond_matrix.calBeliefComp();
-						cout << "fod : " << fod <<  "\t a : " << a << "\t b : " << b << "\t" "Belief B :" << blB << endl;
+						strad = cond_matrix.calStrad();
+						condBelief = blB / (cond_matrix.getNConst() - compA - strad);
+						cout << "fod : " << fod <<  "\t a : " << a << "\t b : " << b << "\t Bel B :" << blB << "\t Bel Comp : " << compA << "\t Strad : " << strad << "\t Cond Belief : " << condBelief << endl;
 						total_time += experiment_time;
 					}
 				}

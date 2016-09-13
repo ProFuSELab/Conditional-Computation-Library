@@ -23,10 +23,12 @@ class CondMatrix
 		int fillingConditionedVecRandom(std::vector<int> & conditionedVec);
 		void genRandomMassValues(void);
 		void genIncreasingMassValues(void);
+		double getNConst(void);
 		double accessFocalElement(int row, int col);
 		double accessFocalElementCoVecs(std::vector<int> & rowVec, std::vector<int> & colVec);
 		double calBeliefB(void);
 		double calBeliefComp(void);
+		double calStrad(void);
 		void printFocalElements(void);
 		void printFocalElementsNormalized(void);
 		void printSingletonVector(void);
