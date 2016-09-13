@@ -327,6 +327,21 @@ double CondMatrix::calBeliefB(void)
 }
 
 //**************************************************************************************************
+// Calculating belief comp A
+//**************************************************************************************************
+double CondMatrix::calBeliefComp(void)
+{
+	double belief = 0.0;
+
+	int count = 0, temp = 0, subsets = 0;
+	for (int i = 0; i < pow(2, no_sin_complement); i++)
+	{
+		belief += focal_element[i][0];
+	}
+	return belief;			// returns belief
+}
+
+//**************************************************************************************************
 // Print focal elements, without normalizing
 //**************************************************************************************************
 void CondMatrix::printFocalElements(void)

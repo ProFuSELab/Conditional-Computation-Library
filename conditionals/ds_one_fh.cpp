@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
         pair<int, int> index;
-        double experiment_time = 0, total_time = 0;
+        double experiment_time = 0.0, total_time = 0.0, blB = 0.0, compA = 0.0, strad = 0.0;
 	vector <int> b_param;
 	int rem_ele;
         CondMatrix cond_matrix;
@@ -38,10 +38,11 @@ int main()
 							cout << "b_param_size : " << b_param.size() << "\t rem ele : " << rem_ele << endl;
 							b_param.erase (b_param.begin() + rem_ele);
 						}
-						cout << "before filling" << endl;
 						cond_matrix.fillingConditionedVecRandom(b_param);
-						cout << "before belief" << endl;
-						cout << "fod : " << fod <<  "\t a : " << a << "\t b : " << b << "\t" "Belief B :" << cond_matrix.calBeliefB() << endl;
+						
+						blB = cond_matrix.calBeliefB();
+						compA = cond_matrix.calBeliefComp();
+						cout << "fod : " << fod <<  "\t a : " << a << "\t b : " << b << "\t" "Belief B :" << blB << endl;
 						total_time += experiment_time;
 					}
 				}
