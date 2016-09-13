@@ -288,12 +288,14 @@ double CondMatrix::accessFocalElementCoVecs(vector<int> & rowVec, vector<int> & 
 double CondMatrix::calBeliefB(void)
 {
 	double belief = 0.0;
-	cout << "Conditioned ele vec" << endl;
-	for (int i = 0; i < conditioned_ele_vec.size(); i++)
-		cout << "i : " << i << "\t element \t" << conditioned_ele_vec[i] << endl;
+	if (debug)
+	{
+		cout << "Conditioned ele vec" << endl;
+		for (int i = 0; i < conditioned_ele_vec.size(); i++)
+			cout << "i : " << i << "\t element \t" << conditioned_ele_vec[i] << endl;
+	}
 
 	int count = 0, temp = 0, subsets = 0;
-	//int index[1048576];
 	for (int i = 0; i < no_sin_conditioned; i++)
 	{
 		temp = count;	
@@ -309,52 +311,18 @@ double CondMatrix::calBeliefB(void)
 	
 	subsets = pow(2, conditioned_ele_vec.size());
 
-//		for (int i = 0; i < subsets - 1; i++)
-//			cout << "REGAP : "<< REGAP_index[i] << endl;
+	if (debug)
+	{
+		for (int i = 0; i < subsets - 1; i++)
+			cout << "REGAP index "<< i << " : " <<  REGAP_index[i] << endl;
+	}
 	
-	cout << focal_element[0].size() << endl;
+	cout << endl << "Row count : " << focal_element.size() << "\tCol count : " << focal_element[0].size() << endl;
 	for (int i = 0; i < subsets - 1; i++)
 	{
-//		cout << "Regap Index : " << REGAP_index[i] << endl;
 		belief += focal_element[0][REGAP_index[i]];
 	}
-	cout << "Bel : " << belief << endl;
-/*
-	int focal_index_cnt = 0, focal_index_temp, subsets = 0;
-	REGAP_index.clear();
-	REGAP_index.assign(pow(2, no_singletons), 0);
-	int index[1048576];
 	
-	cout << "no_sin_conditioned : " << no_sin_conditioned << endl;
-
-	for (int i = 0; i < no_sin_conditioned; i++)		// finding all the indexes
-	{ 
-		index[focal_index_cnt] = conditioned_ele_vec[i];
-		focal_index_temp = focal_index_cnt;
-		focal_index_cnt++;
-		for(int j = 0; j < focal_index_temp; j++)
-		{
-			index[focal_index_cnt] = index[j] + 
-				conditioned_ele_vec[i];	
-			cout << "REGAP inside loop : " << index[focal_index_cnt] << "\t Count : " << focal_index_cnt << endl;
-			focal_index_cnt++;
-		}
-	}
-	focal_index_cnt--;
-	cout << "REGAP outside loop : " << index[focal_index_cnt] << "\t Count : " << focal_index_cnt << endl;
-	index[focal_index_cnt] = 0;
-	
-	cout << "REGAP indexes were computed" << endl;
-	subsets = power[no_sin_conditioned];
-	cout << "Subsets : " << subsets << endl;
-	cout << "Generated REGAP indexes" << endl;
-	for (int i = 0; i < subsets - 3; i++)
-		cout << index[i] << endl;
-
-	for (int i = 0; i < subsets - 3; i++)
-		belief += focal_element[0][index[i]];
-
-*/
 	return belief;			// returns belief
 }
 
