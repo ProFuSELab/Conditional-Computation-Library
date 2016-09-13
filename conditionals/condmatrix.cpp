@@ -323,9 +323,10 @@ double CondMatrix::calBeliefB(void)
 	{
 		for (int i = 0; i < subsets - 1; i++)
 			cout << "REGAP index "<< i << " : " <<  REGAP_index[i] << endl;
+
+		cout << endl << "Row count : " << focal_element.size() << "\tCol count : " << focal_element[0].size() << endl;
 	}
 	
-	cout << endl << "Row count : " << focal_element.size() << "\tCol count : " << focal_element[0].size() << endl;
 	for (int i = 0; i < subsets - 1; i++)
 	{
 		belief += focal_element[0][REGAP_index[i]];
