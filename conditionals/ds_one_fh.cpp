@@ -13,7 +13,7 @@ int main()
         cond_matrix.debugOff();
 
 	// for (int fod = 5; fod <= 20; fod += 5)
-	for (int fod = 15; fod <= 15; fod += 5)
+	for (int fod = 10; fod <= 10; fod += 5)
 	{       
 		for (int a = 1; a <= fod; a++)
 		// for (int a = 1; a <= fod; a++)
