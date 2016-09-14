@@ -6,13 +6,14 @@ int main()
 {
         pair<int, int> index;
         double experiment_time = 0.0, total_time = 0.0, blB = 0.0, compA = 0.0, strad = 0.0, condBelief = 0.0, nlz = 0.0;
+	clock_t cond_begin, cond_end;
 	vector <int> b_param;
 	int rem_ele;
         CondMatrix cond_matrix;
         cond_matrix.debugOff();
 
 	// for (int fod = 5; fod <= 20; fod += 5)
-	for (int fod = 5; fod <= 20; fod += 5)
+	for (int fod = 20; fod <= 20; fod += 5)
 	{       
 		for (int a = 1; a <= fod; a++)
 		// for (int a = 1; a <= fod; a++)
@@ -25,7 +26,8 @@ int main()
 			{       
 				for (int b = 1; b <= a; b++)
 				{       
-					for (int brounds = 0; brounds < 1; brounds++)
+					total_time = 0.0;
+					for (int brounds = 0; brounds < 1000; brounds++)
 					{       
 						b_param.clear();
 						for (int fill = 0; fill < a; fill++)
@@ -37,18 +39,20 @@ int main()
 						}
 						cond_matrix.fillingConditionedVecRandom(b_param);
 						
+						cond_begin = clock();
 						blB = cond_matrix.calBeliefB();
 						compA = cond_matrix.calBeliefComp();
 						strad = cond_matrix.calStrad();
 						nlz = cond_matrix.getNConst();
 						condBelief = blB / (nlz - compA - strad);
-						cout << "Fod size : " << fod <<  "\t|A| : " << a << "\t|B| : " << b << "\tBl (B) :" << blB << "\t Nlz : " << nlz << "\t Bl ({A}) : " << compA << "\tS({A};B) : " << strad << "\tCond Belief : " << condBelief << endl;
-						total_time += experiment_time;
+						cond_end = clock();
+					//	cout << "Fod size : " << fod <<  "\t|A| : " << a << "\t|B| : " << b << "\tBl (B) :" << blB << "\t Nlz : " << nlz << "\t Bl ({A}) : " << compA << "\tS({A};B) : " << strad << "\tCond Belief : " << condBelief << endl;
+						total_time += (double)(cond_end - cond_begin) / CLOCKS_PER_SEC; 
 					}
+					cout << "Fod size : " << fod <<  "\t|A| : " << a << "\t|B| : " << b << "\tTime spent : " << total_time * 1000<< endl; // to get values in micro sec multiplied by 1000000 and divided by 1000
 				}
 			}
 		}
-		cout << "FoD size : " << fod << " Time spent : " << total_time << endl;
 		total_time = 0;
 	}
 
