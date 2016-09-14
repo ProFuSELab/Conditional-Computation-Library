@@ -13,7 +13,7 @@ int main()
         cond_matrix.debugOff();
 
 	// for (int fod = 5; fod <= 20; fod += 5)
-	for (int fod = 15; fod <= 15; fod += 5)
+	for (int fod = 10; fod <= 10; fod += 5)
 	{       
 		for (int a = 1; a <= fod; a++)
 		// for (int a = 1; a <= fod; a++)
@@ -24,7 +24,7 @@ int main()
 		//	cond_matrix.printFocalElements();
 			for (int arounds = 0; arounds < 1; arounds++)
 			{       
-				for (int b = 2; b <= a; b = b + 3)
+				for (int b = 2; b <= a; b = b + 2)
 				{       
 					total_time = 0.0;
 					for (int brounds = 0; brounds < 1000; brounds++)
