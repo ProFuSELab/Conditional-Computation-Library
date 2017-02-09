@@ -1,0 +1,47 @@
+Sender: LSF System <lsfadmin@n249>
+Subject: Job 8096816: <./10sin> in cluster <mk2> Done
+
+Job <./10sin> was submitted from host <login3> by user <lalintha> in cluster <mk2>.
+Job was executed on host(s) <n249>, in queue <general>, as user <lalintha> in cluster <mk2>.
+</nethome/lalintha> was used as the home directory.
+</scratch/projects/premaratne/lalintha/Conditional-Computation-Library/conditionals> was used as the working directory.
+Started at Wed Feb  8 19:38:32 2017
+Results reported on Wed Feb  8 19:38:36 2017
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./10sin
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   0.13 sec.
+    Total Requested Memory :                     1500.00 MB
+    Delta Memory :                               -
+
+The output (if any) follows:
+
+Fod size: 10	|A|: 3	|B|: 2		Time spent: 10
+Fod size: 10	|A|: 4	|B|: 2		Time spent: 10
+Fod size: 10	|A|: 5	|B|: 2		Time spent: 10
+Fod size: 10	|A|: 5	|B|: 4		Time spent: 0
+Fod size: 10	|A|: 6	|B|: 2		Time spent: 0
+Fod size: 10	|A|: 6	|B|: 4		Time spent: 0
+Fod size: 10	|A|: 7	|B|: 2		Time spent: 0
+Fod size: 10	|A|: 7	|B|: 4		Time spent: 0
+Fod size: 10	|A|: 7	|B|: 6		Time spent: 10
+Fod size: 10	|A|: 8	|B|: 2		Time spent: 0
+Fod size: 10	|A|: 8	|B|: 4		Time spent: 0
+Fod size: 10	|A|: 8	|B|: 6		Time spent: 0
+Fod size: 10	|A|: 9	|B|: 2		Time spent: 0
+Fod size: 10	|A|: 9	|B|: 4		Time spent: 0
+Fod size: 10	|A|: 9	|B|: 6		Time spent: 0
+Fod size: 10	|A|: 9	|B|: 8		Time spent: 10
+Fod size: 10	|A|: 10	|B|: 2		Time spent: 0
+Fod size: 10	|A|: 10	|B|: 4		Time spent: 0
+Fod size: 10	|A|: 10	|B|: 6		Time spent: 0
+Fod size: 10	|A|: 10	|B|: 8		Time spent: 0
