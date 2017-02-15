@@ -1,0 +1,138 @@
+Sender: LSF System <lsfadmin@n129>
+Subject: Job 8101438: <./30sin_bigmem8> in cluster <mk2> Done
+
+Job <./30sin_bigmem8> was submitted from host <login4> by user <lalintha> in cluster <mk2>.
+Job was executed on host(s) <2*n129>, in queue <bigmem>, as user <lalintha> in cluster <mk2>.
+                            <1*n130>
+                            <1*n135>
+                            <2*n131>
+                            <1*n088>
+                            <2*n092>
+                            <5*n087>
+                            <1*n132>
+                            <1*n128>
+</nethome/lalintha> was used as the home directory.
+</scratch/projects/premaratne/lalintha/Conditional-Computation-Library/conditionals> was used as the working directory.
+Started at Fri Feb 10 03:21:07 2017
+Results reported on Fri Feb 10 10:08:00 2017
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./30sin_bigmem8
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   24309.66 sec.
+    Max Memory :                                 32770 MB
+    Average Memory :                             21522.53 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   32908 MB
+    Max Processes :                              3
+    Max Threads :                                4
+
+The output (if any) follows:
+
+Fod size: 30	|A|: 5	|B|: 4		Time spent: 1.34572e+07
+Fod size: 30	|A|: 6	|B|: 4		Time spent: 8.0582e+06
+Fod size: 30	|A|: 7	|B|: 4		Time spent: 5.051e+06
+Fod size: 30	|A|: 8	|B|: 4		Time spent: 2.8305e+06
+Fod size: 30	|A|: 9	|B|: 4		Time spent: 1.6152e+06
+Fod size: 30	|A|: 9	|B|: 8		Time spent: 2.00459e+07
+Fod size: 30	|A|: 10	|B|: 4		Time spent: 834100
+Fod size: 30	|A|: 10	|B|: 8		Time spent: 1.20169e+07
+Fod size: 30	|A|: 11	|B|: 4		Time spent: 535500
+Fod size: 30	|A|: 11	|B|: 8		Time spent: 8.2784e+06
+Fod size: 30	|A|: 12	|B|: 4		Time spent: 221800
+Fod size: 30	|A|: 12	|B|: 8		Time spent: 3.0228e+06
+Fod size: 30	|A|: 13	|B|: 4		Time spent: 89600
+Fod size: 30	|A|: 13	|B|: 8		Time spent: 1.117e+06
+Fod size: 30	|A|: 13	|B|: 12		Time spent: 1.77637e+07
+Fod size: 30	|A|: 14	|B|: 4		Time spent: 44900
+Fod size: 30	|A|: 14	|B|: 8		Time spent: 470800
+Fod size: 30	|A|: 14	|B|: 12		Time spent: 6.3924e+06
+Fod size: 30	|A|: 15	|B|: 4		Time spent: 22700
+Fod size: 30	|A|: 15	|B|: 8		Time spent: 256600
+Fod size: 30	|A|: 15	|B|: 12		Time spent: 3.2406e+06
+Fod size: 30	|A|: 16	|B|: 4		Time spent: 10400
+Fod size: 30	|A|: 16	|B|: 8		Time spent: 127400
+Fod size: 30	|A|: 16	|B|: 12		Time spent: 1.7281e+06
+Fod size: 30	|A|: 17	|B|: 4		Time spent: 4300
+Fod size: 30	|A|: 17	|B|: 8		Time spent: 60200
+Fod size: 30	|A|: 17	|B|: 12		Time spent: 840600
+Fod size: 30	|A|: 17	|B|: 16		Time spent: 1.25225e+07
+Fod size: 30	|A|: 18	|B|: 4		Time spent: 2200
+Fod size: 30	|A|: 18	|B|: 8		Time spent: 31200
+Fod size: 30	|A|: 18	|B|: 12		Time spent: 434200
+Fod size: 30	|A|: 18	|B|: 16		Time spent: 6.5143e+06
+Fod size: 30	|A|: 19	|B|: 4		Time spent: 1200
+Fod size: 30	|A|: 19	|B|: 8		Time spent: 17300
+Fod size: 30	|A|: 19	|B|: 12		Time spent: 250200
+Fod size: 30	|A|: 19	|B|: 16		Time spent: 3.5345e+06
+Fod size: 30	|A|: 20	|B|: 4		Time spent: 600
+Fod size: 30	|A|: 20	|B|: 8		Time spent: 8400
+Fod size: 30	|A|: 20	|B|: 12		Time spent: 126500
+Fod size: 30	|A|: 20	|B|: 16		Time spent: 1.8003e+06
+Fod size: 30	|A|: 21	|B|: 4		Time spent: 300
+Fod size: 30	|A|: 21	|B|: 8		Time spent: 3700
+Fod size: 30	|A|: 21	|B|: 12		Time spent: 58000
+Fod size: 30	|A|: 21	|B|: 16		Time spent: 887600
+Fod size: 30	|A|: 21	|B|: 20		Time spent: 1.37992e+07
+Fod size: 30	|A|: 22	|B|: 4		Time spent: 100
+Fod size: 30	|A|: 22	|B|: 8		Time spent: 1800
+Fod size: 30	|A|: 22	|B|: 12		Time spent: 28700
+Fod size: 30	|A|: 22	|B|: 16		Time spent: 494700
+Fod size: 30	|A|: 22	|B|: 20		Time spent: 7.2538e+06
+Fod size: 30	|A|: 23	|B|: 4		Time spent: 0
+Fod size: 30	|A|: 23	|B|: 8		Time spent: 800
+Fod size: 30	|A|: 23	|B|: 12		Time spent: 12800
+Fod size: 30	|A|: 23	|B|: 16		Time spent: 224900
+Fod size: 30	|A|: 23	|B|: 20		Time spent: 3.3101e+06
+Fod size: 30	|A|: 24	|B|: 4		Time spent: 0
+Fod size: 30	|A|: 24	|B|: 8		Time spent: 300
+Fod size: 30	|A|: 24	|B|: 12		Time spent: 5400
+Fod size: 30	|A|: 24	|B|: 16		Time spent: 91000
+Fod size: 30	|A|: 24	|B|: 20		Time spent: 1.5701e+06
+Fod size: 30	|A|: 25	|B|: 4		Time spent: 0
+Fod size: 30	|A|: 25	|B|: 8		Time spent: 100
+Fod size: 30	|A|: 25	|B|: 12		Time spent: 1800
+Fod size: 30	|A|: 25	|B|: 16		Time spent: 28300
+Fod size: 30	|A|: 25	|B|: 20		Time spent: 452800
+Fod size: 30	|A|: 25	|B|: 24		Time spent: 6.3445e+06
+Fod size: 30	|A|: 26	|B|: 4		Time spent: 0
+Fod size: 30	|A|: 26	|B|: 8		Time spent: 0
+Fod size: 30	|A|: 26	|B|: 12		Time spent: 900
+Fod size: 30	|A|: 26	|B|: 16		Time spent: 12500
+Fod size: 30	|A|: 26	|B|: 20		Time spent: 192300
+Fod size: 30	|A|: 26	|B|: 24		Time spent: 3.0126e+06
+Fod size: 30	|A|: 27	|B|: 4		Time spent: 0
+Fod size: 30	|A|: 27	|B|: 8		Time spent: 0
+Fod size: 30	|A|: 27	|B|: 12		Time spent: 400
+Fod size: 30	|A|: 27	|B|: 16		Time spent: 5400
+Fod size: 30	|A|: 27	|B|: 20		Time spent: 85700
+Fod size: 30	|A|: 27	|B|: 24		Time spent: 1.3365e+06
+Fod size: 30	|A|: 28	|B|: 4		Time spent: 0
+Fod size: 30	|A|: 28	|B|: 8		Time spent: 0
+Fod size: 30	|A|: 28	|B|: 12		Time spent: 200
+Fod size: 30	|A|: 28	|B|: 16		Time spent: 3100
+Fod size: 30	|A|: 28	|B|: 20		Time spent: 48400
+Fod size: 30	|A|: 28	|B|: 24		Time spent: 776300
+Fod size: 30	|A|: 29	|B|: 4		Time spent: 0
+Fod size: 30	|A|: 29	|B|: 8		Time spent: 0
+Fod size: 30	|A|: 29	|B|: 12		Time spent: 100
+Fod size: 30	|A|: 29	|B|: 16		Time spent: 2100
+Fod size: 30	|A|: 29	|B|: 20		Time spent: 32300
+Fod size: 30	|A|: 29	|B|: 24		Time spent: 524400
+Fod size: 30	|A|: 29	|B|: 28		Time spent: 8.4605e+06
+Fod size: 30	|A|: 30	|B|: 4		Time spent: 0
+Fod size: 30	|A|: 30	|B|: 8		Time spent: 0
+Fod size: 30	|A|: 30	|B|: 12		Time spent: 100
+Fod size: 30	|A|: 30	|B|: 16		Time spent: 1600
+Fod size: 30	|A|: 30	|B|: 20		Time spent: 24900
+Fod size: 30	|A|: 30	|B|: 24		Time spent: 405800
+Fod size: 30	|A|: 30	|B|: 28		Time spent: 6.4717e+06
