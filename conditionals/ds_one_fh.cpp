@@ -49,7 +49,7 @@ int main()
 					//	cout << "Fod size : " << fod <<  "\t|A| : " << a << "\t|B| : " << b << "\tBl (B) :" << blB << "\t Nlz : " << nlz << "\t Bl ({A}) : " << compA << "\tS({A};B) : " << strad << "\tCond Belief : " << condBelief << endl;
 						total_time += (double)(cond_end - cond_begin) / CLOCKS_PER_SEC; 
 					}
-					cout << "Fod size: " << fod <<  "\t|A|: " << a << "\t|B|: " << b << "\t\tTime spent: " << total_time * 1000 << endl; // to get values in micro sec multiplied by 1000000 and divided by 1000
+					cout << "Fod size: " << fod <<  "\t|A|: " << a << "\t|B|: " << b << "\t\tTime spent(ms): " << total_time << endl; // to get values in micro sec multiplied by 1000000 and divided by 1000
 				}
 			}
 		}
