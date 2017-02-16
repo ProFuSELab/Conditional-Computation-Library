@@ -1,0 +1,526 @@
+Sender: LSF System <lsfadmin@n092>
+Subject: Job 8126413: <./table_bigmem> in cluster <mk2> Exited
+
+Job <./table_bigmem> was submitted from host <login3> by user <lalintha> in cluster <mk2>.
+Job was executed on host(s) <1*n092>, in queue <bigmem>, as user <lalintha> in cluster <mk2>.
+                            <3*n129>
+                            <9*n093>
+                            <2*n088>
+                            <1*n134>
+</nethome/lalintha> was used as the home directory.
+</scratch/projects/premaratne/lalintha/Conditional-Computation-Library/conditionals> was used as the working directory.
+Started at Fri Feb 10 13:25:22 2017
+Results reported on Tue Feb 14 17:25:25 2017
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./table_bigmem
+------------------------------------------------------------
+
+TERM_RUNLIMIT: job killed after reaching LSF run time limit.
+Exited with exit code 140.
+
+Resource usage summary:
+
+    CPU time :                                   334903.56 sec.
+    Max Memory :                                 18436 MB
+    Average Memory :                             14478.93 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   18572 MB
+    Max Processes :                              3
+    Max Threads :                                4
+
+The output (if any) follows:
+
+Fod size: 5	|A|: 2	|B|: 1		Time spent: 0
+Fod size: 5	|A|: 2		Time spent: 0
+Fod size: 5	|A|: 4	|B|: 1		Time spent: 0
+Fod size: 5	|A|: 4	|B|: 2		Time spent: 0
+Fod size: 5	|A|: 4	|B|: 3		Time spent: 0
+Fod size: 5	|A|: 4		Time spent: 0
+Fod size: 10	|A|: 2	|B|: 1		Time spent: 30
+Fod size: 10	|A|: 2		Time spent: 30
+Fod size: 10	|A|: 4	|B|: 1		Time spent: 0
+Fod size: 10	|A|: 4	|B|: 2		Time spent: 10
+Fod size: 10	|A|: 4	|B|: 3		Time spent: 20
+Fod size: 10	|A|: 4		Time spent: 6.66667
+Fod size: 10	|A|: 6	|B|: 1		Time spent: 0
+Fod size: 10	|A|: 6	|B|: 2		Time spent: 0
+Fod size: 10	|A|: 6	|B|: 3		Time spent: 0
+Fod size: 10	|A|: 6	|B|: 4		Time spent: 0
+Fod size: 10	|A|: 6	|B|: 5		Time spent: 10
+Fod size: 10	|A|: 6		Time spent: 2
+Fod size: 10	|A|: 8	|B|: 1		Time spent: 0
+Fod size: 10	|A|: 8	|B|: 2		Time spent: 0
+Fod size: 10	|A|: 8	|B|: 3		Time spent: 0
+Fod size: 10	|A|: 8	|B|: 4		Time spent: 0
+Fod size: 10	|A|: 8	|B|: 5		Time spent: 0
+Fod size: 10	|A|: 8	|B|: 6		Time spent: 0
+Fod size: 10	|A|: 8	|B|: 7		Time spent: 0
+Fod size: 10	|A|: 8		Time spent: 0
+Fod size: 10	|A|: 10	|B|: 1		Time spent: 0
+Fod size: 10	|A|: 10	|B|: 2		Time spent: 0
+Fod size: 10	|A|: 10	|B|: 3		Time spent: 0
+Fod size: 10	|A|: 10	|B|: 4		Time spent: 0
+Fod size: 10	|A|: 10	|B|: 5		Time spent: 0
+Fod size: 10	|A|: 10	|B|: 6		Time spent: 10
+Fod size: 10	|A|: 10	|B|: 7		Time spent: 10
+Fod size: 10	|A|: 10	|B|: 8		Time spent: 20
+Fod size: 10	|A|: 10	|B|: 9		Time spent: 30
+Fod size: 10	|A|: 10		Time spent: 3.33333
+Fod size: 15	|A|: 2	|B|: 1		Time spent: 700
+Fod size: 15	|A|: 2		Time spent: 700
+Fod size: 15	|A|: 4	|B|: 1		Time spent: 180
+Fod size: 15	|A|: 4	|B|: 2		Time spent: 380
+Fod size: 15	|A|: 4	|B|: 3		Time spent: 650
+Fod size: 15	|A|: 4		Time spent: 216.667
+Fod size: 15	|A|: 6	|B|: 1		Time spent: 40
+Fod size: 15	|A|: 6	|B|: 2		Time spent: 100
+Fod size: 15	|A|: 6	|B|: 3		Time spent: 160
+Fod size: 15	|A|: 6	|B|: 4		Time spent: 260
+Fod size: 15	|A|: 6	|B|: 5		Time spent: 430
+Fod size: 15	|A|: 6		Time spent: 86
+Fod size: 15	|A|: 8	|B|: 1		Time spent: 10
+Fod size: 15	|A|: 8	|B|: 2		Time spent: 20
+Fod size: 15	|A|: 8	|B|: 3		Time spent: 40
+Fod size: 15	|A|: 8	|B|: 4		Time spent: 70
+Fod size: 15	|A|: 8	|B|: 5		Time spent: 110
+Fod size: 15	|A|: 8	|B|: 6		Time spent: 180
+Fod size: 15	|A|: 8	|B|: 7		Time spent: 310
+Fod size: 15	|A|: 8		Time spent: 44.2857
+Fod size: 15	|A|: 10	|B|: 1		Time spent: 10
+Fod size: 15	|A|: 10	|B|: 2		Time spent: 10
+Fod size: 15	|A|: 10	|B|: 3		Time spent: 10
+Fod size: 15	|A|: 10	|B|: 4		Time spent: 20
+Fod size: 15	|A|: 10	|B|: 5		Time spent: 30
+Fod size: 15	|A|: 10	|B|: 6		Time spent: 50
+Fod size: 15	|A|: 10	|B|: 7		Time spent: 80
+Fod size: 15	|A|: 10	|B|: 8		Time spent: 150
+Fod size: 15	|A|: 10	|B|: 9		Time spent: 290
+Fod size: 15	|A|: 10		Time spent: 32.2222
+Fod size: 15	|A|: 12	|B|: 1		Time spent: 0
+Fod size: 15	|A|: 12	|B|: 2		Time spent: 0
+Fod size: 15	|A|: 12	|B|: 3		Time spent: 0
+Fod size: 15	|A|: 12	|B|: 4		Time spent: 0
+Fod size: 15	|A|: 12	|B|: 5		Time spent: 10
+Fod size: 15	|A|: 12	|B|: 6		Time spent: 20
+Fod size: 15	|A|: 12	|B|: 7		Time spent: 30
+Fod size: 15	|A|: 12	|B|: 8		Time spent: 50
+Fod size: 15	|A|: 12	|B|: 9		Time spent: 90
+Fod size: 15	|A|: 12	|B|: 10		Time spent: 170
+Fod size: 15	|A|: 12	|B|: 11		Time spent: 320
+Fod size: 15	|A|: 12		Time spent: 29.0909
+Fod size: 15	|A|: 14	|B|: 1		Time spent: 0
+Fod size: 15	|A|: 14	|B|: 2		Time spent: 0
+Fod size: 15	|A|: 14	|B|: 3		Time spent: 0
+Fod size: 15	|A|: 14	|B|: 4		Time spent: 0
+Fod size: 15	|A|: 14	|B|: 5		Time spent: 0
+Fod size: 15	|A|: 14	|B|: 6		Time spent: 0
+Fod size: 15	|A|: 14	|B|: 7		Time spent: 0
+Fod size: 15	|A|: 14	|B|: 8		Time spent: 10
+Fod size: 15	|A|: 14	|B|: 9		Time spent: 20
+Fod size: 15	|A|: 14	|B|: 10		Time spent: 50
+Fod size: 15	|A|: 14	|B|: 11		Time spent: 110
+Fod size: 15	|A|: 14	|B|: 12		Time spent: 240
+Fod size: 15	|A|: 14	|B|: 13		Time spent: 490
+Fod size: 15	|A|: 14		Time spent: 37.6923
+Fod size: 20	|A|: 2	|B|: 1		Time spent: 22650
+Fod size: 20	|A|: 2		Time spent: 22650
+Fod size: 20	|A|: 4	|B|: 1		Time spent: 5640
+Fod size: 20	|A|: 4	|B|: 2		Time spent: 12290
+Fod size: 20	|A|: 4	|B|: 3		Time spent: 20960
+Fod size: 20	|A|: 4		Time spent: 6986.67
+Fod size: 20	|A|: 6	|B|: 1		Time spent: 1440
+Fod size: 20	|A|: 6	|B|: 2		Time spent: 3130
+Fod size: 20	|A|: 6	|B|: 3		Time spent: 5380
+Fod size: 20	|A|: 6	|B|: 4		Time spent: 8720
+Fod size: 20	|A|: 6	|B|: 5		Time spent: 14240
+Fod size: 20	|A|: 6		Time spent: 2848
+Fod size: 20	|A|: 8	|B|: 1		Time spent: 370
+Fod size: 20	|A|: 8	|B|: 2		Time spent: 810
+Fod size: 20	|A|: 8	|B|: 3		Time spent: 1400
+Fod size: 20	|A|: 8	|B|: 4		Time spent: 2300
+Fod size: 20	|A|: 8	|B|: 5		Time spent: 3800
+Fod size: 20	|A|: 8	|B|: 6		Time spent: 6500
+Fod size: 20	|A|: 8	|B|: 7		Time spent: 11610
+Fod size: 20	|A|: 8		Time spent: 1658.57
+Fod size: 20	|A|: 10	|B|: 1		Time spent: 90
+Fod size: 20	|A|: 10	|B|: 2		Time spent: 210
+Fod size: 20	|A|: 10	|B|: 3		Time spent: 360
+Fod size: 20	|A|: 10	|B|: 4		Time spent: 580
+Fod size: 20	|A|: 10	|B|: 5		Time spent: 950
+Fod size: 20	|A|: 10	|B|: 6		Time spent: 1600
+Fod size: 20	|A|: 10	|B|: 7		Time spent: 2820
+Fod size: 20	|A|: 10	|B|: 8		Time spent: 5160
+Fod size: 20	|A|: 10	|B|: 9		Time spent: 9740
+Fod size: 20	|A|: 10		Time spent: 1082.22
+Fod size: 20	|A|: 12	|B|: 1		Time spent: 20
+Fod size: 20	|A|: 12	|B|: 2		Time spent: 50
+Fod size: 20	|A|: 12	|B|: 3		Time spent: 90
+Fod size: 20	|A|: 12	|B|: 4		Time spent: 150
+Fod size: 20	|A|: 12	|B|: 5		Time spent: 240
+Fod size: 20	|A|: 12	|B|: 6		Time spent: 400
+Fod size: 20	|A|: 12	|B|: 7		Time spent: 690
+Fod size: 20	|A|: 12	|B|: 8		Time spent: 1260
+Fod size: 20	|A|: 12	|B|: 9		Time spent: 2360
+Fod size: 20	|A|: 12	|B|: 10		Time spent: 4510
+Fod size: 20	|A|: 12	|B|: 11		Time spent: 8750
+Fod size: 20	|A|: 12		Time spent: 795.455
+Fod size: 20	|A|: 14	|B|: 1		Time spent: 0
+Fod size: 20	|A|: 14	|B|: 2		Time spent: 10
+Fod size: 20	|A|: 14	|B|: 3		Time spent: 20
+Fod size: 20	|A|: 14	|B|: 4		Time spent: 40
+Fod size: 20	|A|: 14	|B|: 5		Time spent: 60
+Fod size: 20	|A|: 14	|B|: 6		Time spent: 90
+Fod size: 20	|A|: 14	|B|: 7		Time spent: 170
+Fod size: 20	|A|: 14	|B|: 8		Time spent: 320
+Fod size: 20	|A|: 14	|B|: 9		Time spent: 610
+Fod size: 20	|A|: 14	|B|: 10		Time spent: 1180
+Fod size: 20	|A|: 14	|B|: 11		Time spent: 2290
+Fod size: 20	|A|: 14	|B|: 12		Time spent: 4490
+Fod size: 20	|A|: 14	|B|: 13		Time spent: 8840
+Fod size: 20	|A|: 14		Time spent: 680
+Fod size: 20	|A|: 16	|B|: 1		Time spent: 10
+Fod size: 20	|A|: 16	|B|: 2		Time spent: 10
+Fod size: 20	|A|: 16	|B|: 3		Time spent: 10
+Fod size: 20	|A|: 16	|B|: 4		Time spent: 10
+Fod size: 20	|A|: 16	|B|: 5		Time spent: 20
+Fod size: 20	|A|: 16	|B|: 6		Time spent: 40
+Fod size: 20	|A|: 16	|B|: 7		Time spent: 60
+Fod size: 20	|A|: 16	|B|: 8		Time spent: 100
+Fod size: 20	|A|: 16	|B|: 9		Time spent: 180
+Fod size: 20	|A|: 16	|B|: 10		Time spent: 330
+Fod size: 20	|A|: 16	|B|: 11		Time spent: 620
+Fod size: 20	|A|: 16	|B|: 12		Time spent: 1190
+Fod size: 20	|A|: 16	|B|: 13		Time spent: 2330
+Fod size: 20	|A|: 16	|B|: 14		Time spent: 4600
+Fod size: 20	|A|: 16	|B|: 15		Time spent: 9120
+Fod size: 20	|A|: 16		Time spent: 608
+Fod size: 20	|A|: 18	|B|: 1		Time spent: 0
+Fod size: 20	|A|: 18	|B|: 2		Time spent: 0
+Fod size: 20	|A|: 18	|B|: 3		Time spent: 0
+Fod size: 20	|A|: 18	|B|: 4		Time spent: 10
+Fod size: 20	|A|: 18	|B|: 5		Time spent: 10
+Fod size: 20	|A|: 18	|B|: 6		Time spent: 10
+Fod size: 20	|A|: 18	|B|: 7		Time spent: 10
+Fod size: 20	|A|: 18	|B|: 8		Time spent: 20
+Fod size: 20	|A|: 18	|B|: 9		Time spent: 40
+Fod size: 20	|A|: 18	|B|: 10		Time spent: 90
+Fod size: 20	|A|: 18	|B|: 11		Time spent: 190
+Fod size: 20	|A|: 18	|B|: 12		Time spent: 380
+Fod size: 20	|A|: 18	|B|: 13		Time spent: 760
+Fod size: 20	|A|: 18	|B|: 14		Time spent: 1510
+Fod size: 20	|A|: 18	|B|: 15		Time spent: 3000
+Fod size: 20	|A|: 18	|B|: 16		Time spent: 5970
+Fod size: 20	|A|: 18	|B|: 17		Time spent: 11910
+Fod size: 20	|A|: 18		Time spent: 700.588
+Fod size: 20	|A|: 20	|B|: 1		Time spent: 0
+Fod size: 20	|A|: 20	|B|: 2		Time spent: 0
+Fod size: 20	|A|: 20	|B|: 3		Time spent: 0
+Fod size: 20	|A|: 20	|B|: 4		Time spent: 0
+Fod size: 20	|A|: 20	|B|: 5		Time spent: 0
+Fod size: 20	|A|: 20	|B|: 6		Time spent: 0
+Fod size: 20	|A|: 20	|B|: 7		Time spent: 10
+Fod size: 20	|A|: 20	|B|: 8		Time spent: 20
+Fod size: 20	|A|: 20	|B|: 9		Time spent: 30
+Fod size: 20	|A|: 20	|B|: 10		Time spent: 60
+Fod size: 20	|A|: 20	|B|: 11		Time spent: 110
+Fod size: 20	|A|: 20	|B|: 12		Time spent: 210
+Fod size: 20	|A|: 20	|B|: 13		Time spent: 400
+Fod size: 20	|A|: 20	|B|: 14		Time spent: 790
+Fod size: 20	|A|: 20	|B|: 15		Time spent: 1560
+Fod size: 20	|A|: 20	|B|: 16		Time spent: 3130
+Fod size: 20	|A|: 20	|B|: 17		Time spent: 6280
+Fod size: 20	|A|: 20	|B|: 18		Time spent: 12530
+Fod size: 20	|A|: 20	|B|: 19		Time spent: 24850
+Fod size: 20	|A|: 20		Time spent: 1307.89
+Fod size: 25	|A|: 2	|B|: 1		Time spent: 817720
+Fod size: 25	|A|: 2		Time spent: 817720
+Fod size: 25	|A|: 4	|B|: 1		Time spent: 212820
+Fod size: 25	|A|: 4	|B|: 2		Time spent: 472660
+Fod size: 25	|A|: 4	|B|: 3		Time spent: 822340
+Fod size: 25	|A|: 4		Time spent: 274113
+Fod size: 25	|A|: 6	|B|: 1		Time spent: 87160
+Fod size: 25	|A|: 6	|B|: 2		Time spent: 199960
+Fod size: 25	|A|: 6	|B|: 3		Time spent: 357640
+Fod size: 25	|A|: 6	|B|: 4		Time spent: 607760
+Fod size: 25	|A|: 6	|B|: 5		Time spent: 1.04785e+06
+Fod size: 25	|A|: 6		Time spent: 209570
+Fod size: 25	|A|: 8	|B|: 1		Time spent: 18790
+Fod size: 25	|A|: 8	|B|: 2		Time spent: 46660
+Fod size: 25	|A|: 8	|B|: 3		Time spent: 91230
+Fod size: 25	|A|: 8	|B|: 4		Time spent: 145090
+Fod size: 25	|A|: 8	|B|: 5		Time spent: 236640
+Fod size: 25	|A|: 8	|B|: 6		Time spent: 375780
+Fod size: 25	|A|: 8	|B|: 7		Time spent: 620830
+Fod size: 25	|A|: 8		Time spent: 88690
+Fod size: 25	|A|: 10	|B|: 1		Time spent: 3160
+Fod size: 25	|A|: 10	|B|: 2		Time spent: 7420
+Fod size: 25	|A|: 10	|B|: 3		Time spent: 14160
+Fod size: 25	|A|: 10	|B|: 4		Time spent: 26020
+Fod size: 25	|A|: 10	|B|: 5		Time spent: 48670
+Fod size: 25	|A|: 10	|B|: 6		Time spent: 91400
+Fod size: 25	|A|: 10	|B|: 7		Time spent: 166370
+Fod size: 25	|A|: 10	|B|: 8		Time spent: 307430
+Fod size: 25	|A|: 10	|B|: 9		Time spent: 566130
+Fod size: 25	|A|: 10		Time spent: 62903.3
+Fod size: 25	|A|: 12	|B|: 1		Time spent: 810
+Fod size: 25	|A|: 12	|B|: 2		Time spent: 1840
+Fod size: 25	|A|: 12	|B|: 3		Time spent: 3360
+Fod size: 25	|A|: 12	|B|: 4		Time spent: 6020
+Fod size: 25	|A|: 12	|B|: 5		Time spent: 11100
+Fod size: 25	|A|: 12	|B|: 6		Time spent: 20980
+Fod size: 25	|A|: 12	|B|: 7		Time spent: 40170
+Fod size: 25	|A|: 12	|B|: 8		Time spent: 78220
+Fod size: 25	|A|: 12	|B|: 9		Time spent: 150990
+Fod size: 25	|A|: 12	|B|: 10		Time spent: 292130
+Fod size: 25	|A|: 12	|B|: 11		Time spent: 555770
+Fod size: 25	|A|: 12		Time spent: 50524.5
+Fod size: 25	|A|: 14	|B|: 1		Time spent: 210
+Fod size: 25	|A|: 14	|B|: 2		Time spent: 490
+Fod size: 25	|A|: 14	|B|: 3		Time spent: 900
+Fod size: 25	|A|: 14	|B|: 4		Time spent: 1590
+Fod size: 25	|A|: 14	|B|: 5		Time spent: 2890
+Fod size: 25	|A|: 14	|B|: 6		Time spent: 5470
+Fod size: 25	|A|: 14	|B|: 7		Time spent: 10510
+Fod size: 25	|A|: 14	|B|: 8		Time spent: 20560
+Fod size: 25	|A|: 14	|B|: 9		Time spent: 40650
+Fod size: 25	|A|: 14	|B|: 10		Time spent: 81220
+Fod size: 25	|A|: 14	|B|: 11		Time spent: 158840
+Fod size: 25	|A|: 14	|B|: 12		Time spent: 308330
+Fod size: 25	|A|: 14	|B|: 13		Time spent: 492530
+Fod size: 25	|A|: 14		Time spent: 37886.9
+Fod size: 25	|A|: 16	|B|: 1		Time spent: 40
+Fod size: 25	|A|: 16	|B|: 2		Time spent: 100
+Fod size: 25	|A|: 16	|B|: 3		Time spent: 210
+Fod size: 25	|A|: 16	|B|: 4		Time spent: 380
+Fod size: 25	|A|: 16	|B|: 5		Time spent: 700
+Fod size: 25	|A|: 16	|B|: 6		Time spent: 1320
+Fod size: 25	|A|: 16	|B|: 7		Time spent: 2560
+Fod size: 25	|A|: 16	|B|: 8		Time spent: 5120
+Fod size: 25	|A|: 16	|B|: 9		Time spent: 10240
+Fod size: 25	|A|: 16	|B|: 10		Time spent: 20360
+Fod size: 25	|A|: 16	|B|: 11		Time spent: 40680
+Fod size: 25	|A|: 16	|B|: 12		Time spent: 80830
+Fod size: 25	|A|: 16	|B|: 13		Time spent: 161040
+Fod size: 25	|A|: 16	|B|: 14		Time spent: 318310
+Fod size: 25	|A|: 16	|B|: 15		Time spent: 624770
+Fod size: 25	|A|: 16		Time spent: 41651.3
+Fod size: 25	|A|: 18	|B|: 1		Time spent: 10
+Fod size: 25	|A|: 18	|B|: 2		Time spent: 30
+Fod size: 25	|A|: 18	|B|: 3		Time spent: 50
+Fod size: 25	|A|: 18	|B|: 4		Time spent: 80
+Fod size: 25	|A|: 18	|B|: 5		Time spent: 160
+Fod size: 25	|A|: 18	|B|: 6		Time spent: 310
+Fod size: 25	|A|: 18	|B|: 7		Time spent: 610
+Fod size: 25	|A|: 18	|B|: 8		Time spent: 1200
+Fod size: 25	|A|: 18	|B|: 9		Time spent: 2430
+Fod size: 25	|A|: 18	|B|: 10		Time spent: 4960
+Fod size: 25	|A|: 18	|B|: 11		Time spent: 10100
+Fod size: 25	|A|: 18	|B|: 12		Time spent: 20400
+Fod size: 25	|A|: 18	|B|: 13		Time spent: 40740
+Fod size: 25	|A|: 18	|B|: 14		Time spent: 80830
+Fod size: 25	|A|: 18	|B|: 15		Time spent: 159280
+Fod size: 25	|A|: 18	|B|: 16		Time spent: 313040
+Fod size: 25	|A|: 18	|B|: 17		Time spent: 619300
+Fod size: 25	|A|: 18		Time spent: 36429.4
+Fod size: 25	|A|: 20	|B|: 1		Time spent: 10
+Fod size: 25	|A|: 20	|B|: 2		Time spent: 10
+Fod size: 25	|A|: 20	|B|: 3		Time spent: 20
+Fod size: 25	|A|: 20	|B|: 4		Time spent: 30
+Fod size: 25	|A|: 20	|B|: 5		Time spent: 50
+Fod size: 25	|A|: 20	|B|: 6		Time spent: 90
+Fod size: 25	|A|: 20	|B|: 7		Time spent: 160
+Fod size: 25	|A|: 20	|B|: 8		Time spent: 300
+Fod size: 25	|A|: 20	|B|: 9		Time spent: 570
+Fod size: 25	|A|: 20	|B|: 10		Time spent: 1050
+Fod size: 25	|A|: 20	|B|: 11		Time spent: 1950
+Fod size: 25	|A|: 20	|B|: 12		Time spent: 3620
+Fod size: 25	|A|: 20	|B|: 13		Time spent: 6580
+Fod size: 25	|A|: 20	|B|: 14		Time spent: 12350
+Fod size: 25	|A|: 20	|B|: 15		Time spent: 22490
+Fod size: 25	|A|: 20	|B|: 16		Time spent: 43170
+Fod size: 25	|A|: 20	|B|: 17		Time spent: 83570
+Fod size: 25	|A|: 20	|B|: 18		Time spent: 163620
+Fod size: 25	|A|: 20	|B|: 19		Time spent: 321910
+Fod size: 25	|A|: 20		Time spent: 16942.6
+Fod size: 25	|A|: 22	|B|: 1		Time spent: 0
+Fod size: 25	|A|: 22	|B|: 2		Time spent: 0
+Fod size: 25	|A|: 22	|B|: 3		Time spent: 10
+Fod size: 25	|A|: 22	|B|: 4		Time spent: 10
+Fod size: 25	|A|: 22	|B|: 5		Time spent: 10
+Fod size: 25	|A|: 22	|B|: 6		Time spent: 20
+Fod size: 25	|A|: 22	|B|: 7		Time spent: 40
+Fod size: 25	|A|: 22	|B|: 8		Time spent: 60
+Fod size: 25	|A|: 22	|B|: 9		Time spent: 110
+Fod size: 25	|A|: 22	|B|: 10		Time spent: 190
+Fod size: 25	|A|: 22	|B|: 11		Time spent: 380
+Fod size: 25	|A|: 22	|B|: 12		Time spent: 740
+Fod size: 25	|A|: 22	|B|: 13		Time spent: 1450
+Fod size: 25	|A|: 22	|B|: 14		Time spent: 2870
+Fod size: 25	|A|: 22	|B|: 15		Time spent: 5700
+Fod size: 25	|A|: 22	|B|: 16		Time spent: 11660
+Fod size: 25	|A|: 22	|B|: 17		Time spent: 23400
+Fod size: 25	|A|: 22	|B|: 18		Time spent: 46220
+Fod size: 25	|A|: 22	|B|: 19		Time spent: 90690
+Fod size: 25	|A|: 22	|B|: 20		Time spent: 179830
+Fod size: 25	|A|: 22	|B|: 21		Time spent: 355730
+Fod size: 25	|A|: 22		Time spent: 16939.5
+Fod size: 25	|A|: 24	|B|: 1		Time spent: 0
+Fod size: 25	|A|: 24	|B|: 2		Time spent: 0
+Fod size: 25	|A|: 24	|B|: 3		Time spent: 0
+Fod size: 25	|A|: 24	|B|: 4		Time spent: 0
+Fod size: 25	|A|: 24	|B|: 5		Time spent: 0
+Fod size: 25	|A|: 24	|B|: 6		Time spent: 0
+Fod size: 25	|A|: 24	|B|: 7		Time spent: 10
+Fod size: 25	|A|: 24	|B|: 8		Time spent: 20
+Fod size: 25	|A|: 24	|B|: 9		Time spent: 40
+Fod size: 25	|A|: 24	|B|: 10		Time spent: 80
+Fod size: 25	|A|: 24	|B|: 11		Time spent: 160
+Fod size: 25	|A|: 24	|B|: 12		Time spent: 300
+Fod size: 25	|A|: 24	|B|: 13		Time spent: 580
+Fod size: 25	|A|: 24	|B|: 14		Time spent: 1140
+Fod size: 25	|A|: 24	|B|: 15		Time spent: 2250
+Fod size: 25	|A|: 24	|B|: 16		Time spent: 4470
+Fod size: 25	|A|: 24	|B|: 17		Time spent: 8890
+Fod size: 25	|A|: 24	|B|: 18		Time spent: 17720
+Fod size: 25	|A|: 24	|B|: 19		Time spent: 35440
+Fod size: 25	|A|: 24	|B|: 20		Time spent: 71560
+Fod size: 25	|A|: 24	|B|: 21		Time spent: 143410
+Fod size: 25	|A|: 24	|B|: 22		Time spent: 286840
+Fod size: 25	|A|: 24	|B|: 23		Time spent: 575390
+Fod size: 25	|A|: 24		Time spent: 25017
+Fod size: 30	|A|: 2	|B|: 1		Time spent: 2.54119e+07
+Fod size: 30	|A|: 2		Time spent: 2.54119e+07
+Fod size: 30	|A|: 4	|B|: 1		Time spent: 6.79802e+06
+Fod size: 30	|A|: 4	|B|: 2		Time spent: 1.52347e+07
+Fod size: 30	|A|: 4	|B|: 3		Time spent: 2.63577e+07
+Fod size: 30	|A|: 4		Time spent: 8.7859e+06
+Fod size: 30	|A|: 6	|B|: 1		Time spent: 2.78592e+06
+Fod size: 30	|A|: 6	|B|: 2		Time spent: 6.41478e+06
+Fod size: 30	|A|: 6	|B|: 3		Time spent: 1.17006e+07
+Fod size: 30	|A|: 6	|B|: 4		Time spent: 2.06715e+07
+Fod size: 30	|A|: 6	|B|: 5		Time spent: 3.55408e+07
+Fod size: 30	|A|: 6		Time spent: 7.10815e+06
+Fod size: 30	|A|: 8	|B|: 1		Time spent: 771520
+Fod size: 30	|A|: 8	|B|: 2		Time spent: 1.77715e+06
+Fod size: 30	|A|: 8	|B|: 3		Time spent: 3.2738e+06
+Fod size: 30	|A|: 8	|B|: 4		Time spent: 5.72241e+06
+Fod size: 30	|A|: 8	|B|: 5		Time spent: 1.06365e+07
+Fod size: 30	|A|: 8	|B|: 6		Time spent: 1.87338e+07
+Fod size: 30	|A|: 8	|B|: 7		Time spent: 3.30375e+07
+Fod size: 30	|A|: 8		Time spent: 4.71964e+06
+Fod size: 30	|A|: 10	|B|: 1		Time spent: 215120
+Fod size: 30	|A|: 10	|B|: 2		Time spent: 501380
+Fod size: 30	|A|: 10	|B|: 3		Time spent: 937930
+Fod size: 30	|A|: 10	|B|: 4		Time spent: 1.67726e+06
+Fod size: 30	|A|: 10	|B|: 5		Time spent: 3.0289e+06
+Fod size: 30	|A|: 10	|B|: 6		Time spent: 5.58089e+06
+Fod size: 30	|A|: 10	|B|: 7		Time spent: 1.05547e+07
+Fod size: 30	|A|: 10	|B|: 8		Time spent: 2.04468e+07
+Fod size: 30	|A|: 10	|B|: 9		Time spent: 3.99664e+07
+Fod size: 30	|A|: 10		Time spent: 4.44071e+06
+Fod size: 30	|A|: 12	|B|: 1		Time spent: 56070
+Fod size: 30	|A|: 12	|B|: 2		Time spent: 131820
+Fod size: 30	|A|: 12	|B|: 3		Time spent: 248180
+Fod size: 30	|A|: 12	|B|: 4		Time spent: 447340
+Fod size: 30	|A|: 12	|B|: 5		Time spent: 805060
+Fod size: 30	|A|: 12	|B|: 6		Time spent: 1.48354e+06
+Fod size: 30	|A|: 12	|B|: 7		Time spent: 2.80103e+06
+Fod size: 30	|A|: 12	|B|: 8		Time spent: 5.40055e+06
+Fod size: 30	|A|: 12	|B|: 9		Time spent: 1.05509e+07
+Fod size: 30	|A|: 12	|B|: 10		Time spent: 2.11377e+07
+Fod size: 30	|A|: 12	|B|: 11		Time spent: 3.90026e+07
+Fod size: 30	|A|: 12		Time spent: 3.54569e+06
+Fod size: 30	|A|: 14	|B|: 1		Time spent: 15460
+Fod size: 30	|A|: 14	|B|: 2		Time spent: 35630
+Fod size: 30	|A|: 14	|B|: 3		Time spent: 57550
+Fod size: 30	|A|: 14	|B|: 4		Time spent: 93170
+Fod size: 30	|A|: 14	|B|: 5		Time spent: 156800
+Fod size: 30	|A|: 14	|B|: 6		Time spent: 335200
+Fod size: 30	|A|: 14	|B|: 7		Time spent: 739620
+Fod size: 30	|A|: 14	|B|: 8		Time spent: 1.40675e+06
+Fod size: 30	|A|: 14	|B|: 9		Time spent: 2.89447e+06
+Fod size: 30	|A|: 14	|B|: 10		Time spent: 6.0422e+06
+Fod size: 30	|A|: 14	|B|: 11		Time spent: 1.11245e+07
+Fod size: 30	|A|: 14	|B|: 12		Time spent: 2.12579e+07
+Fod size: 30	|A|: 14	|B|: 13		Time spent: 3.85166e+07
+Fod size: 30	|A|: 14		Time spent: 2.96282e+06
+Fod size: 30	|A|: 16	|B|: 1		Time spent: 2230
+Fod size: 30	|A|: 16	|B|: 2		Time spent: 5760
+Fod size: 30	|A|: 16	|B|: 3		Time spent: 14660
+Fod size: 30	|A|: 16	|B|: 4		Time spent: 31150
+Fod size: 30	|A|: 16	|B|: 5		Time spent: 59200
+Fod size: 30	|A|: 16	|B|: 6		Time spent: 101380
+Fod size: 30	|A|: 16	|B|: 7		Time spent: 185280
+Fod size: 30	|A|: 16	|B|: 8		Time spent: 329450
+Fod size: 30	|A|: 16	|B|: 9		Time spent: 561740
+Fod size: 30	|A|: 16	|B|: 10		Time spent: 1.10277e+06
+Fod size: 30	|A|: 16	|B|: 11		Time spent: 2.08645e+06
+Fod size: 30	|A|: 16	|B|: 12		Time spent: 3.82545e+06
+Fod size: 30	|A|: 16	|B|: 13		Time spent: 7.60669e+06
+Fod size: 30	|A|: 16	|B|: 14		Time spent: 1.47361e+07
+Fod size: 30	|A|: 16	|B|: 15		Time spent: 2.83221e+07
+Fod size: 30	|A|: 16		Time spent: 1.88814e+06
+Fod size: 30	|A|: 18	|B|: 1		Time spent: 640
+Fod size: 30	|A|: 18	|B|: 2		Time spent: 1810
+Fod size: 30	|A|: 18	|B|: 3		Time spent: 3800
+Fod size: 30	|A|: 18	|B|: 4		Time spent: 7440
+Fod size: 30	|A|: 18	|B|: 5		Time spent: 14440
+Fod size: 30	|A|: 18	|B|: 6		Time spent: 25310
+Fod size: 30	|A|: 18	|B|: 7		Time spent: 47490
+Fod size: 30	|A|: 18	|B|: 8		Time spent: 88560
+Fod size: 30	|A|: 18	|B|: 9		Time spent: 165310
+Fod size: 30	|A|: 18	|B|: 10		Time spent: 306730
+Fod size: 30	|A|: 18	|B|: 11		Time spent: 542140
+Fod size: 30	|A|: 18	|B|: 12		Time spent: 1.05772e+06
+Fod size: 30	|A|: 18	|B|: 13		Time spent: 1.93575e+06
+Fod size: 30	|A|: 18	|B|: 14		Time spent: 3.75686e+06
+Fod size: 30	|A|: 18	|B|: 15		Time spent: 7.2419e+06
+Fod size: 30	|A|: 18	|B|: 16		Time spent: 1.44929e+07
+Fod size: 30	|A|: 18	|B|: 17		Time spent: 2.8674e+07
+Fod size: 30	|A|: 18		Time spent: 1.68671e+06
+Fod size: 30	|A|: 20	|B|: 1		Time spent: 100
+Fod size: 30	|A|: 20	|B|: 2		Time spent: 240
+Fod size: 30	|A|: 20	|B|: 3		Time spent: 460
+Fod size: 30	|A|: 20	|B|: 4		Time spent: 900
+Fod size: 30	|A|: 20	|B|: 5		Time spent: 1780
+Fod size: 30	|A|: 20	|B|: 6		Time spent: 3600
+Fod size: 30	|A|: 20	|B|: 7		Time spent: 7210
+Fod size: 30	|A|: 20	|B|: 8		Time spent: 14480
+Fod size: 30	|A|: 20	|B|: 9		Time spent: 28670
+Fod size: 30	|A|: 20	|B|: 10		Time spent: 56130
+Fod size: 30	|A|: 20	|B|: 11		Time spent: 107340
+Fod size: 30	|A|: 20	|B|: 12		Time spent: 205530
+Fod size: 30	|A|: 20	|B|: 13		Time spent: 397430
+Fod size: 30	|A|: 20	|B|: 14		Time spent: 746690
+Fod size: 30	|A|: 20	|B|: 15		Time spent: 1.27898e+06
+Fod size: 30	|A|: 20	|B|: 16		Time spent: 2.51554e+06
+Fod size: 30	|A|: 20	|B|: 17		Time spent: 4.74409e+06
+Fod size: 30	|A|: 20	|B|: 18		Time spent: 9.07823e+06
+Fod size: 30	|A|: 20	|B|: 19		Time spent: 1.74769e+07
+Fod size: 30	|A|: 20		Time spent: 919837
+Fod size: 30	|A|: 22	|B|: 1		Time spent: 30
+Fod size: 30	|A|: 22	|B|: 2		Time spent: 60
+Fod size: 30	|A|: 22	|B|: 3		Time spent: 120
+Fod size: 30	|A|: 22	|B|: 4		Time spent: 210
+Fod size: 30	|A|: 22	|B|: 5		Time spent: 380
+Fod size: 30	|A|: 22	|B|: 6		Time spent: 690
+Fod size: 30	|A|: 22	|B|: 7		Time spent: 1340
+Fod size: 30	|A|: 22	|B|: 8		Time spent: 2660
+Fod size: 30	|A|: 22	|B|: 9		Time spent: 5300
+Fod size: 30	|A|: 22	|B|: 10		Time spent: 10440
+Fod size: 30	|A|: 22	|B|: 11		Time spent: 20450
+Fod size: 30	|A|: 22	|B|: 12		Time spent: 41190
+Fod size: 30	|A|: 22	|B|: 13		Time spent: 80390
+Fod size: 30	|A|: 22	|B|: 14		Time spent: 181650
+Fod size: 30	|A|: 22	|B|: 15		Time spent: 386230
+Fod size: 30	|A|: 22	|B|: 16		Time spent: 760370
+Fod size: 30	|A|: 22	|B|: 17		Time spent: 1.36302e+06
+Fod size: 30	|A|: 22	|B|: 18		Time spent: 2.52393e+06
+Fod size: 30	|A|: 22	|B|: 19		Time spent: 5.12223e+06
+Fod size: 30	|A|: 22	|B|: 20		Time spent: 9.28258e+06
+User defined signal 2

@@ -1,0 +1,47 @@
+Sender: LSF System <lsfadmin@n127>
+Subject: Job 8166780: <./a.out> in cluster <mk2> Done
+
+Job <./a.out> was submitted from host <login3> by user <lalintha> in cluster <mk2>.
+Job was executed on host(s) <n127>, in queue <bigmem>, as user <lalintha> in cluster <mk2>.
+</nethome/lalintha> was used as the home directory.
+</scratch/projects/premaratne/lalintha/Conditional-Computation-Library/experiments_isipta/For_Table> was used as the working directory.
+Started at Wed Feb 15 16:40:09 2017
+Results reported on Wed Feb 15 19:58:37 2017
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./a.out
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   10208.15 sec.
+    Max Memory :                                 32770 MB
+    Average Memory :                             26159.06 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   32909 MB
+    Max Processes :                              3
+    Max Threads :                                4
+
+The output (if any) follows:
+
+Fod size: 2	Rounds: 2000		Average Time spent: 0
+Fod size: 4	Rounds: 1332		Average Time spent: 0
+Fod size: 6	Rounds: 1200		Average Time spent: 0
+Fod size: 8	Rounds: 1120		Average Time spent: 0
+Fod size: 10	Rounds: 1080		Average Time spent: 0
+Fod size: 12	Rounds: 1056		Average Time spent: 18.9394
+Fod size: 14	Rounds: 1001		Average Time spent: 9.99001
+Fod size: 16	Rounds: 960		Average Time spent: 125
+Fod size: 18	Rounds: 918		Average Time spent: 446.623
+Fod size: 20	Rounds: 950		Average Time spent: 1568.42
+Fod size: 22	Rounds: 924		Average Time spent: 6612.55
+Fod size: 24	Rounds: 828		Average Time spent: 28224.6
+Fod size: 26	Rounds: 975		Average Time spent: 125282
+Fod size: 28	Rounds: 756		Average Time spent: 496138
+Fod size: 30	Rounds: 870		Average Time spent: 2.32911e+06
