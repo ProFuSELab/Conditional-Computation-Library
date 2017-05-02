@@ -165,6 +165,7 @@ int CondMatrix::fillingConditionedVecRandom(vector<int> & conditionedVec)
 {
 	conditioned_ele_vec.clear();
 	no_sin_conditioned = conditionedVec.size();
+	int belief_index = 0;
 
 	for (vector<int>::iterator it = conditionedVec.begin(); it != conditionedVec.end(); ++it)
 	{
@@ -173,8 +174,10 @@ int CondMatrix::fillingConditionedVecRandom(vector<int> & conditionedVec)
 
 	if (debug)
 		cout << "Belief ele vec size : " << conditioned_ele_vec.size() << endl;
+	for (vector<int>::iterator it = conditioned_ele_vec.begin(); it != conditioned_ele_vec.end(); ++it)
+		belief_index += *it;
 
-	return conditioned_ele_vec.size();
+	return belief_index;
 }
 
 //**************************************************************************************************

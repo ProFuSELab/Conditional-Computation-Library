@@ -28,7 +28,7 @@ int main()
 			{       
 				for (int b = 1; b < a; b = b + 1)
 				{       
-					for (int brounds = 0; brounds < 2000 / ((fod - 1) * (fod - 1)); brounds++)
+					for (int brounds = 0; brounds < 20400 / ((fod - 1) * (fod - 1)); brounds++)
 					{       
 						b_param.clear();
 						for (int fill = 0; fill < a; fill++)
@@ -38,9 +38,9 @@ int main()
 							rem_ele = rand() % (a + 1 - rem);
 							b_param.erase (b_param.begin() + rem_ele);
 						}
-						cond_matrix.fillingConditionedVecRandom(b_param);
 						
 						cond_begin = clock();
+						cond_matrix.fillingConditionedVecRandom(b_param);
 						blB = cond_matrix.calBeliefB();
 						compA = cond_matrix.calBeliefComp();
 						strad = cond_matrix.calStrad();

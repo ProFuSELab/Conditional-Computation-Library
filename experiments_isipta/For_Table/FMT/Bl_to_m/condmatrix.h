@@ -27,7 +27,6 @@ class CondMatrix
 		double accessFocalElement(int row, int col);
 		double accessFocalElementCoVecs(std::vector<int> & rowVec, std::vector<int> & colVec);
 		double calBeliefB(void);
-		double calAllMasses(double beliefcomp);
 		double calBeliefComp(void);
 		double calStrad(void);
 		void printFocalElements(void);

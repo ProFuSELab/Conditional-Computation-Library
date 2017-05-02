@@ -165,6 +165,7 @@ int CondMatrix::fillingConditionedVecRandom(vector<int> & conditionedVec)
 {
 	conditioned_ele_vec.clear();
 	no_sin_conditioned = conditionedVec.size();
+	int belief_index = 0;
 
 	for (vector<int>::iterator it = conditionedVec.begin(); it != conditionedVec.end(); ++it)
 	{
@@ -173,8 +174,10 @@ int CondMatrix::fillingConditionedVecRandom(vector<int> & conditionedVec)
 
 	if (debug)
 		cout << "Belief ele vec size : " << conditioned_ele_vec.size() << endl;
+	for (vector<int>::iterator it = conditioned_ele_vec.begin(); it != conditioned_ele_vec.end(); ++it)
+		belief_index += *it;
 
-	return conditioned_ele_vec.size();
+	return belief_index;
 }
 
 //**************************************************************************************************
@@ -347,27 +350,6 @@ double CondMatrix::calBeliefComp(void)
 		belief += focal_element[i][0];
 	}
 	return belief;			// returns belief
-}
-
-//**************************************************************************************************
-// Calculating all conditional masses 
-//**************************************************************************************************
-double CondMatrix::calAllMasses(double beliefcomp)
-{
-	double mass_col = 0.0;
-	double computed_mass_value = 0.0; //if you need use a vector or other method if you need
-
-	for (int j = 1; j < pow(2, no_sin_conditioning); j++)
-	{
-		mass_col = 0.0;
-		for (int i = 0; i < pow(2, no_sin_complement); i++)
-		{
-			mass_col += focal_element[i][j];
-		}
-		computed_mass_value = mass_col / (normalizing_const - beliefcomp);
-		//cout << computed_mass_value << endl;
-	}
-	return computed_mass_value;			// returns the last value
 }
 
 //**************************************************************************************************
